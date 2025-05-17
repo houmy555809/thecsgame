@@ -1,4 +1,10 @@
 # The Caesium Game
+
+## If you're coming from GitHub Pages:
+I apologize as this isn't the main game file. In fact you can visit [link](cs.html) to start playing the game.
+
+## What is it?
+
 [play](http://z202305.space/projects/cs.html) (p.s. find the newest updates there)
 
 This is an chemical-themed game ~~copying~~ inspired by the popular .io game [florr.io](https://florr.io). I used multiple (hundreds or thousands of) DOM elements to render the game, because JS canvas has a low resolution (btw now I know how to solve that, but then I'll have to rewrite thousands of lines of code). Here's an overview of the file structure:
