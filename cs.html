@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Caesium Game</title>
+		<link rel="stylesheet" href="cs/game.css">
+		<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.css">
+		<script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool@0.3.7/disable-devtool.min.js#use"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="achievement" sytle="display:none"></div>
+			<div id="options">
+				<a href="javascript:x=maps[mapid].spawnX;y=maps[mapid].spawnY;">返回出生点</a> |
+				<a href="javascript:toggleColorScheme();" id="colorscheme">切换颜色风格</a>
+			</div>
+			<div id="player">
+				<div id="petals"></div>
+			</div>
+			<div id="projectiles"></div>
+			<div id="mobs"></div>
+			<div id="drops"></div>
+			<div id="minimap"></div>
+			<div id="obstacles"></div>
+			<div id="teleporters"></div>
+			<div id="level"></div>
+		</div>
+		<div id="inventory"></div>
+		<div id="desc"></div>
+		<div id="dead">
+			<div style="top:40%;left:50%;font-size:90px">RIP</div>
+			<div style="top:60%;left:50%;font-size:20px">请按Enter键重生</div>
+			<p style="top:80%;left:50%;font-size:20px;color:white;" id="tip"></p>
+		</div>
+		<script src="cs/mobs.js"></script>
+		<script src="cs/petals.js"></script>
+		<script src="cs/map.js"></script>
+		<script src="cs/achievements.js"></script>
+		<script src="cs/game.js"></script>
+	</body>
+</html>
